@@ -69,10 +69,8 @@ git clone https://github.com/ChrisBaehrig/MM-PIR-motion-poweron.git
     sudo pm2 monit
     ```
 ### Stop autostart: 
-    ```
     pm2 stop time-shut
     sudo pm2 stop time-shutdown.py
-    ```
 
 ## Changelog
 ### [1.0.0] - 2022-10-10
