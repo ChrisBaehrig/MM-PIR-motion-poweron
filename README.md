@@ -12,9 +12,11 @@ Example PIR-Sensor: https://www.amazon.de/dp/B07V6BY66P/
 
 ### Wireing
 Connecting PIR-Sensor: 
+
 <img src="https://user-images.githubusercontent.com/60329834/194863175-1e79b0cd-cc10-4a34-b3be-07cfd544f147.jpg" alt="drawing" width="500"/>
 
 Connection to the RaspberryPI 4b: 
+
 <img src="https://user-images.githubusercontent.com/60329834/194863175-1e79b0cd-cc10-4a34-b3be-07cfd544f147.jpg" alt="drawing" width="500"/>
 
 Mor infos to the Wake up funktion of the RaspberryPI: https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
