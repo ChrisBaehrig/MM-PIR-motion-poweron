@@ -12,7 +12,7 @@ GPIO.setup(SENSOR_PIN, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 flag = 0
 
-f = open("/home/christopher/Shutdown-LOG.txt", "a")
+f = open("/home/christopher/Shutdown-LOG.txt", "a")                                    //Change Directory !
 f.write("\nBoot-time: "+ time.strftime("%a, %d %b %Y %H:%M:%S +0000", time.gmtime()))
 f.close()
  
@@ -29,7 +29,7 @@ while True:
      print(flag)
      if flag >= 150: #In 10/Minuten wartezeit
         print("ABSCHALTEN")
-        f = open("/home/christopher/Shutdown-LOG.txt", "a")
+        f = open("/home/christopher/Shutdown-LOG.txt", "a")                                //Change Directory !
         f.write("\nShutdown: "+ time.strftime("%a, %d %b %Y %H:%M:%S +0000", time.gmtime()))
         f.close()
          
