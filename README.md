@@ -1,4 +1,4 @@
-# MMM-PIR-motion-poweron
+# MM-PIR-motion-poweron
 
 
 This powersaving program starts automatically the RaspberryPi. It use a PIR-Sensor which triggers the booting pin to start the MagicMirror. After a waiting time the MM shutdown for power saving.
