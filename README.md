@@ -18,7 +18,7 @@ Connecting PIR-Sensor:
 <img src="https://user-images.githubusercontent.com/60329834/194929283-9bf3726e-5759-471e-bc54-d6f7c87cec0f.png" alt="drawing" width="500"/>
 <img src="https://user-images.githubusercontent.com/60329834/194887463-1ff34bbf-9036-4240-b954-f8260f2437b8.jpg" alt="drawing" width="500"/>
 
-Mor infos to the Wake up funktion of the RaspberryPI: 
+More infos to the Wake up function of the RaspberryPI: 
 
 https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
 
