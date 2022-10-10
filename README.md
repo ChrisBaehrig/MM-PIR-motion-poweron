@@ -8,12 +8,11 @@ Connect your PIR-Sensor to the Pin 3 of Your RaspberryPI.
 Raspberry Pi try reading the output from the PIR motion sensor. The sensor outputs a digital HIGH (5V) signal when it detects a person. 
 
 Example PIR-Sensor: https://www.amazon.de/dp/B07V6BY66P/
-
-
-
-
+Connecting PIR-Sensor: 
+<img src="https://user-images.githubusercontent.com/60329834/194863175-1e79b0cd-cc10-4a34-b3be-07cfd544f147.jpg" alt="drawing" width="200"/>
 ![IMG_20200812_140557](https://user-images.githubusercontent.com/60329834/194863175-1e79b0cd-cc10-4a34-b3be-07cfd544f147.jpg)
-![IMG_20200812_144242](https://user-images.githubusercontent.com/60329834/194863185-f9cc9de3-a4a9-431e-a739-fd7f452d7514.jpg)
+
+
 
 ![image](https://user-images.githubusercontent.com/60329834/194860587-847caace-9b13-47d2-b2c1-0263a76bfe62.png)
 
