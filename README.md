@@ -1,6 +1,8 @@
 # MMM-PIR-motion-poweron
 
 This program switch the RaspberryPi on, if a motion on the PIR-Sensor is detectet and switches the RasspberryPi of after a specific time. 
+To switsch of should save power at time where no Body is at home. 
+
 <img src="https://user-images.githubusercontent.com/60329834/194888681-0f4a8c82-b71c-4adb-b94d-ca8867e6edd9.png" alt="drawing" width="500"/>
 
 ## Requirements
@@ -81,4 +83,7 @@ git clone https://github.com/ChrisBaehrig/MM-PIR-motion-poweron.git
 Many thanks to
 
 - [MichMich](https://github.com/MichMich/MagicMirror) for the MagicMirror development
+
+# Disclaimer
+I assume no liability for damage caused!!!!
 
