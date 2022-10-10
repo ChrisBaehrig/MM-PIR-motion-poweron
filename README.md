@@ -1,7 +1,6 @@
 # MMM-PIR-motion-poweron
 
-This program switch the RaspberryPi on, if a motion on the PIR-Sensor is detectet and switches the RasspberryPi of after a specific time. 
-To switsch of should save power at time where no Body is at home. 
+This powersaving program starts the automatically the RaspberryPi, if the PIR-Sensor detectets a motion and shutdown the RasspberryPi of after a waiting time without any motion. 
 
 <img src="https://user-images.githubusercontent.com/60329834/194888681-0f4a8c82-b71c-4adb-b94d-ca8867e6edd9.png" alt="drawing" width="500"/>
 
@@ -16,10 +15,11 @@ Example PIR-Sensor: https://www.amazon.de/dp/B07V6BY66P/
 ### Wireing
 Connecting PIR-Sensor: 
 
-<img src="https://user-images.githubusercontent.com/60329834/194886593-2a06cc30-faa7-409b-8a29-b5f6a4dc3f78.png" alt="drawing" width="500"/>
+<img src="https://user-images.githubusercontent.com/60329834/194929283-9bf3726e-5759-471e-bc54-d6f7c87cec0f.png" alt="drawing" width="500"/>
 <img src="https://user-images.githubusercontent.com/60329834/194887463-1ff34bbf-9036-4240-b954-f8260f2437b8.jpg" alt="drawing" width="500"/>
 
 Mor infos to the Wake up funktion of the RaspberryPI: 
+
 https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
 
 ## Installation
