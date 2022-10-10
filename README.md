@@ -5,6 +5,11 @@ This program switch the RaspberryPi on, if a motion on the PIR-Sensor is detecte
 ## Requirements
 
 Connect your PIR-Sensor to the Pin 3 of Your RaspberryPI. 
+Raspberry Pi try reading the output from the PIR motion sensor. The sensor outputs a digital HIGH (5V) signal when it detects a person. 
+
+Example PIR-Sensor: https://www.amazon.de/dp/B07V6BY66P/
+
+
 
 
 ![IMG_20200812_140557](https://user-images.githubusercontent.com/60329834/194863175-1e79b0cd-cc10-4a34-b3be-07cfd544f147.jpg)
