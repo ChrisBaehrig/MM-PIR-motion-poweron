@@ -1,10 +1,11 @@
 # MMM-PIR-motion-poweron
 
 This program switch the RaspberryPi on, if a motion on the PIR-Sensor is detectet and switches the RasspberryPi of after a specific time. 
+<img src="https://user-images.githubusercontent.com/60329834/194888681-0f4a8c82-b71c-4adb-b94d-ca8867e6edd9.png" alt="drawing" width="500"/>
 
 ## Requirements
 
-Connect your PIR-Sensor to the Pin 3 of Your RaspberryPI. 
+Connect your PIR-Sensor to the Pin 3 of Your RaspberryPI. An BD137 Transistor inverts the Signal for the Interrupt to start the RP.
 Raspberry Pi try reading the output from the PIR motion sensor. The sensor outputs a digital HIGH (5V) signal when it detects a person. 
 
 ### What you will need
@@ -13,11 +14,8 @@ Example PIR-Sensor: https://www.amazon.de/dp/B07V6BY66P/
 ### Wireing
 Connecting PIR-Sensor: 
 
-<img src="https://user-images.githubusercontent.com/60329834/194863175-1e79b0cd-cc10-4a34-b3be-07cfd544f147.jpg" alt="drawing" width="500"/>
-
-Connection to the RaspberryPI 4b: 
-
-<img src="https://user-images.githubusercontent.com/60329834/194863175-1e79b0cd-cc10-4a34-b3be-07cfd544f147.jpg" alt="drawing" width="500"/>
+<img src="https://user-images.githubusercontent.com/60329834/194886593-2a06cc30-faa7-409b-8a29-b5f6a4dc3f78.png" alt="drawing" width="500"/>
+<img src="https://user-images.githubusercontent.com/60329834/194887463-1ff34bbf-9036-4240-b954-f8260f2437b8.jpg" alt="drawing" width="500"/>
 
 Mor infos to the Wake up funktion of the RaspberryPI: 
 https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
@@ -82,5 +80,5 @@ git clone https://github.com/ChrisBaehrig/MM-PIR-motion-poweron.git
 
 Many thanks to
 
-- [alexyak](https://github.com/alexyak/motiondetector) for the original module code
-- [lonekorean](https://github.com/lonekorean/diff-cam-engine/) for the diffcam engine code.
+- [MichMich](https://github.com/MichMich/MagicMirror) for the MagicMirror development
+
