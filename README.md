@@ -4,32 +4,21 @@ This program switch the RaspberryPi on, if a motion on the PIR-Sensor is detecte
 
 ## Requirements
 
+Connect your PIR-Sensor to the Pin 3 of Your RaspberryPI. 
+
+
+![IMG_20200812_140557](https://user-images.githubusercontent.com/60329834/194863175-1e79b0cd-cc10-4a34-b3be-07cfd544f147.jpg)
+![IMG_20200812_144242](https://user-images.githubusercontent.com/60329834/194863185-f9cc9de3-a4a9-431e-a739-fd7f452d7514.jpg)
+
 ![image](https://user-images.githubusercontent.com/60329834/194860587-847caace-9b13-47d2-b2c1-0263a76bfe62.png)
 
+Mor infos to the Wake up funktion of the RaspberryPI: https://howchoo.com/g/mwnlytk3zmm/how-to-add-a-power-button-to-your-raspberry-pi
 
 ## Installation
 
-Just clone the module into your MagicMirror modules folder.
-
-Assuming you are in your MagicMirror directory execute these commands:
-
+Just clone the files into your Home directory.
 ```
-cd modules
-git clone https://github.com/rejas/MMM-MotionDetector.git
-```
-
-## Requirements
-
-Accessing your (web)cam requires to have the client run on localhost or a HTTPS host (due to new requirements in Chrome for getUserMedia).
-The default value in your MagicMirror config.js is already `localhost` so most users shouldn't be affected.
-
-Just in case you still have problems (like [here](https://github.com/rejas/MMM-MotionDetector/issues/6)) check your config
-and see if you can solve it by outcommenting the ip-address under
-
-```JavaScript
-let config = {
-    	address : '0.0.0.0',
-	...
+git clone https://github.com/ChrisBaehrig/MM-PIR-motion-poweron.git
 ```
 
 ### Raspberry Pi OS
