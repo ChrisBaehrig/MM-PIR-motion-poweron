@@ -83,6 +83,6 @@ Many thanks to
 
 - [MichMich](https://github.com/MichMich/MagicMirror) for the MagicMirror development
 
-# Disclaimer
+## Disclaimer
 The Projekt is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
